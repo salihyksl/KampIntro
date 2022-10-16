@@ -9,7 +9,7 @@ namespace Donguler
             string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı";
             string kurs2 = "Programlamaya başlangıç için temel kurs";
             string kurs3 = "Java";
-
+            int deger=0;
 
             string[] kurslar = new string[] {"Yazılım Geliştirici Yetiştirme Kampı", "Programlamaya başlangıç için temel kurs", "Java" };
 
@@ -21,6 +21,12 @@ namespace Donguler
             foreach (string kurs in kurslar)
             {
                 Console.WriteLine(kurs);
+            }
+            Console.WriteLine("----------------while------------------------");
+            while(deger<kurslar.Length)
+            {
+                Console.WriteLine(kurslar[deger]);
+                deger++;
             }
         }
     }
